@@ -1,0 +1,28 @@
+{
+  "name": "10w-bee-chat-firefly-type-iv",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> <img src=\"logo.png\" width=\"200px\" alt=\"Bee Mail Logo\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corndel-swe/10w-bee-chat-Firefly-Type-IV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/corndel-swe/10w-bee-chat-Firefly-Type-IV/issues"
+  },
+  "homepage": "https://github.com/corndel-swe/10w-bee-chat-Firefly-Type-IV#readme",
+  "dependencies": {
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
